@@ -1,0 +1,47 @@
+.header {
+    padding-top: 28px;
+    background-color: grey;
+
+    &__menu {
+        display: flex;
+        margin-top: 28px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        &--item {
+            display: block;
+            padding-bottom: 5px;
+            color: $main-color;
+            font-family: 'Montserrat', sans-serif;
+
+            font: {
+                size: 14px;
+                weight: 400;
+            }
+
+            text-transform: uppercase;
+
+
+        }
+
+        &--item:hover {
+            color: $in-color;
+            border-bottom: 3px solid;
+            cursor: pointer;
+        }
+    }
+}
+
+.logo {
+    // color: $main-color;
+    font-family: 'Montserrat', sans-serif;
+
+    font: {
+        size: 30px;
+        weight: 700;
+    }
+
+    text-align: left;
+}

@@ -51,3 +51,11 @@ button {
 * {
 	font-display: fallback;
 }
+a,
+a:active,
+a:visited,
+a:focus {
+	text-decoration: none;
+	border-color: none;
+	color: #fff;
+}

@@ -1,0 +1,30 @@
+.main-slider {
+
+    &__pretitle {
+        background-color: grey;
+    //
+    margin-top: 164px;
+        color: $main-color;
+        text-align: center;
+        text-transform: capitalize;
+    font-family: 'Kaushan Script', cursive;
+    font: {
+        size: 72px;
+        weight: 400;
+    }
+    }
+    &__title {
+        margin-top: 42px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        
+        font: {
+            size: 150px;
+            weight: 700;
+        }
+        line-height: 140px;
+        color: $main-color;
+        
+    }
+}

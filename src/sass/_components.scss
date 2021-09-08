@@ -1,5 +1,40 @@
 .container {
     width: 1200px;
     height: auto;
+    margin: {
+        left: auto;
+        right: auto;
+    }
 }
 // BUTTONS
+.btn-main {
+    display: block;
+    width: 160px;
+    height: 40px;
+    border: 4px solid $main-color;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    &:hover {
+        outline: 8px solid $active-color;
+        transition: 0.5s;
+    }
+    &__text {
+        font-family: 'Montserrat', sans-serif;
+
+    font: {
+        size: 14px;
+        weight: 700;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+}}
+//LINES
+.line {
+    display: block;
+    margin: 70px auto 50px auto;
+    width: 60px;
+    height: 4px;
+    color: $main-color;
+}
